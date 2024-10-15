@@ -57,10 +57,10 @@ class Manager : Worker
             Call();
         }
 
-        int RelaxTimes = random.Next(1, 5);
+        int RelaxTimes = random.Next(1, 6);
         for (int i = 0; i < RelaxTimes; i++)
         {
-            Call();
+            Relax();
         }
     }
 }
